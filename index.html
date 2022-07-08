@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>   <meta charset="utf-8">
+  <title>main page</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="@@description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css?_v=20220708151156">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220708151156"/> <!-- Resource style --> 
+  
+
+ </head>
+
+<body>
+  <!-- sprite -->
+  <svg style="display: none;">
+    <symbol id="arrow-prev" viewBox="0 0 443.52 443.52">
+      <g>
+        <path
+          d="M143.492,221.863L336.226,29.129c6.663-6.664,6.663-17.468,0-24.132c-6.665-6.662-17.468-6.662-24.132,0l-204.8,204.8    c-6.662,6.664-6.662,17.468,0,24.132l204.8,204.8c6.78,6.548,17.584,6.36,24.132-0.42c6.387-6.614,6.387-17.099,0-23.712    L143.492,221.863z"
+          fill="" data-original="#000000"></path>
+      </g>
+    </symbol>
+    <symbol id="arrow-next" viewBox="0 0 512.002 512.002">
+      <g>
+        <path
+          d="M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105    L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795    l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"
+          fill="" data-original="#000000"></path>
+      </g>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 176 176">
+      <g>
+        <path
+          d="m115.88 77.58-1.77 15.33a2.87 2.87 0 0 1 -2.82 2.57h-16l-.08 45.45a2.05 2.05 0 0 1 -2 2.07h-16.21a2 2 0 0 1 -2-2.08v-45.44h-12a2.87 2.87 0 0 1 -2.84-2.9l-.06-15.33a2.88 2.88 0 0 1 2.84-2.92h12.06v-14.8c0-17.18 10.2-26.53 25.16-26.53h12.26a2.88 2.88 0 0 1 2.85 2.92v12.9a2.88 2.88 0 0 1 -2.85 2.92h-7.52c-8.13 0-9.71 4-9.71 9.78v12.81h17.87a2.88 2.88 0 0 1 2.82 3.25z"
+          fill="#ffffff" data-original="#ffffff"></path>
+      </g>
+    </symbol>
+    <symbol id="telegram" viewBox="0 0 512 512">
+      <g>
+        <path d="m386 53c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0"
+          fill="#ffffff" data-original="#000000"></path>
+        <path
+          d="m397.367188 141.683594-295 115c-3.839844 1.496094-6.371094 5.199218-6.367188 9.324218.003906 4.121094 2.535156 7.820313 6.378906 9.3125l57.519532 22.347657c6.585937 16.460937 36.425781 91.089843 36.898437 92.214843 2.773437 6.5625 11.300781 8.175782 16.273437 3.1875l44.550782-44.550781 82.15625 65.308594c5.75 4.570313 14.421875 1.578125 16-5.71875l55-255c1.636718-7.640625-5.867188-14.359375-13.410156-11.425781zm-105.335938 62.527344-125.386719 74.621093-33.070312-12.847656zm29.554688 5.6875-102.324219 93.332031c-1.328125 1.214843-2.421875 2.9375-2.917969 4.796875-.003906.007812-.007812.019531-.007812.027344l-12.261719 46.207031-24.046875-60.121094zm-89.839844 118.058593 10.117187 8.039063-16.671875 16.671875zm107.871094 60.195313c-19.089844-15.175782-80.507813-63.988282-98.207032-78.054688l143.21875-130.632812zm0 0"
+          fill="#ffffff" data-original="#000000"></path>
+        <path
+          d="m462 0h-412c-27.570312 0-50 22.429688-50 50v412c0 27.570312 22.429688 50 50 50h412c27.570312 0 50-22.429688 50-50v-412c0-27.570312-22.429688-50-50-50zm30 462c0 16.542969-13.457031 30-30 30h-412c-16.542969 0-30-13.457031-30-30v-412c0-16.542969 13.457031-30 30-30h412c16.542969 0 30 13.457031 30 30zm0 0"
+          fill="#ffffff" data-original="#000000" class=""></path>
+        <path
+          d="m136 63h200c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-200c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10zm0 0"
+          fill="#ffffff" data-original="#000000"></path>
+      </g>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 512 512">
+      <g>
+        <path
+          d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.89843717.640625-17.640625 17.640625zm0 0">
+        </path>
+        <path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"></path>
+        <path
+          d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-72.960938 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0">
+        </path>
+      </g>
+    </symbol>
+  </svg>
+  <div class="wrapper"> <header class="header" id="header">
+  <div class="header__container  _container">
+    <div class="header__body">
+      <a href="#"  class="header__logo"><h1 class="wow pulse">Leo/-</h1></a>
+      <nav class="header__menu  menu" id="nav">
+        <ul class="menu__list">
+          <li class="menu__item wow pulse">
+            <a  href="#" target="_blank"  class="menu__link">Solutions</a>
+          </li>
+          <li class="menu__item wow pulse">
+            <a href="#" class="menu__link">Product</a>
+          </li>
+          <li class="menu__item wow pulse">
+            <a href="#" target="_blank"  class="menu__link ">Portfolio</a>
+          </li>
+          <li class="menu__item wow pulse">
+            <a href="#" target="_blank"  class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!--/header__menu  menu -->
+      <div class="nav__toggle" id="navToggle" type="button">
+        <span class="nav__toggle_item">Menu</span>
+      </div>
+    </div>
+    <!--/header__body -->
+  </div>
+  <!--/header__container  _container --> 
+</header>
+ <main class="page">
+   <section class="page__intro intro" id="intro">
+      <div class="intro__container _container">
+         <div class="intro__body">
+            <div class="intro__carousel carousel">
+               <div class="carousel__line">
+                  <div class="carousel__item">
+                     <div class="carousel__image"><picture><source srcset="./img/banner.webp" type="image/webp"><img class="wow fadeInUp" src="./img/banner.png" alt=" "></picture></div>
+                     <div class="carousel__inner">
+                        <div class="carousel__title">Introducing</div>
+                        <div class="carousel__subtitle">Something hot...</div>
+                        <butoon class="carousel__button carousel__button_green">Try Demo</butoon>
+                     </div>
+                  </div>
+                  <!--/carousel__item-->
+                  <div class="carousel__item">
+                     <div class="carousel__image carousel__image_border"><img class="image_border"
+                           src="./img/banner2.png" alt=" "></div>
+                     <div class="carousel__inner">
+                        <div class="carousel__title">Introducing</div>
+                        <div class="carousel__subtitle">Something hot...</div>
+                        <butoon class="carousel__button carousel__button_green">Try Demo</butoon>
+                     </div>
+                  </div>
+                  <!--/carousel__item-->
+                  <div class="carousel__item">
+                     <div class="carousel__image"><picture><source srcset="./img/banner.webp" type="image/webp"><img src="./img/banner.png" alt=" "></picture></div>
+                     <div class="carousel__inner">
+                        <div class="carousel__title">Introducing</div>
+                        <div class="carousel__subtitle">Something hot...</div>
+                        <butoon class="carousel__button carousel__button_green">Try Demo</butoon>
+                     </div>
+                  </div>
+                  <!--/carousel__item-->
+               </div>
+               <!--/carousel__line-->
+            </div>
+            <!--/intro__carousel carousel-->
+            <div class="btn-prev">
+               <a class="btn-prev"><svg>
+                     <use xlink:href="#arrow-prev"></use>
+                  </svg></a>
+            </div>
+            <div class="btn-next">
+               <a class="btn-next"><svg>
+                     <use xlink:href="#arrow-next"></use>
+                  </svg></a>
+            </div>
+         </div>
+         <!--/intro__body -->
+      </div>
+      <!--/intro__container _container-->
+      <div class="intro__image _ibg">
+         <picture><source srcset="./img/body/1.webp" type="image/webp"><img src="./img/body/1.png" alt=""></picture>
+         <picture><source srcset="./img/body/2.webp" type="image/webp"><img src="./img/body/2.png" alt=""></picture>
+      </div>
+   </section>
+   <!--/page__intro-->
+   <!---------------------------------/intro------------------------------>
+   <!--------------------------------content------------------------------->
+   <section class="page__content content" id="content">
+      <div class="content__container  _container">
+         <div class="content__body">
+            <div class="content__tabs tabs">
+               <div class="tabs__links">
+                  <button class="tabs__links_btn" type="button" data-tab="#tab-1">
+                     <picture><source srcset="./img/section1/1.webp" type="image/webp"><img class="wow bounce" src="./img/section1/1.png"></picture>
+                     <p>Responsive</p>
+                     <p>Websites</p>
+                  </button>
+                  <button class="tabs__links_btn" type="button" data-tab="#tab-2">
+                     <picture><source srcset="./img/section1/2.webp" type="image/webp"><img class="wow bounce" src="./img/section1/2.png"></picture>
+                     <p>Responsive</p>
+                     <p>Websites</p>
+                  </button>
+                  <button class="tabs__links_btn" type="button" data-tab="#tab-3">
+                     <picture><source srcset="./img/section1/3.webp" type="image/webp"><img class="wow bounce" src="./img/section1/3.png"></picture>
+                     <p>Responsive</p>
+                     <p>Websites</p>
+                  </button>
+                  <button class="tabs__links_btn" type="button" data-tab="#tab-4">
+                     <picture><source srcset="./img/section1/4.webp" type="image/webp"><img class="wow bounce" src="./img/section1/4.png"></picture>
+                     <p>Responsive</p>
+                     <p>Websites</p>
+                  </button>
+               </div>
+               <!--/tabs__links -->
+               <div class="tabs__content">
+                  <div class="tabs__item" id="tab-1">
+                     <picture><source srcset="./img/section1/ipad.webp" type="image/webp"><img class="tabs__image wow fadeInUp" src="./img/section1/ipad.png"></picture>
+                     <h2>Lorem ipsum dolor sit.</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim neque eius officiis quaerat
+                        fugiat adipisci, cum porro illo repellat, quam tempore reiciendis nihil excepturi sapiente
+                        mollitia asperiores pariatur quidem.</p>
+                    
+                  </div>
+                  <!--/tabs__item -->
+                  <div class="tabs__item" id="tab-2">
+                     <picture><source srcset="./img/section1/ipad.webp" type="image/webp"><img class="tabs__image" src="./img/section1/ipad.png"></picture>
+                     <h2>Lorem ipsum dolor sit.</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim neque eius officiis quaerat
+                        fugiat adipisci, cum porro illo repellat, quam tempore reiciendis nihil excepturi sapiente
+                        mollitia asperiores pariatur quidem.</p>
+                    
+                  </div>
+                  <!--/tabs__item -->
+                  <div class="tabs__item" id="tab-3">
+                     <picture><source srcset="./img/section1/ipad2.webp" type="image/webp"><img class="tabs__image" src="./img/section1/ipad2.jpg"></picture>
+                     <h2>Lorem ipsum dolor sit.</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim neque eius officiis quaerat
+                        fugiat adipisci, cum porro illo repellat, quam tempore reiciendis nihil excepturi sapiente
+                        mollitia asperiores pariatur quidem.</p>
+                   
+                  </div>
+                  <!--/tabs__item -->
+                  <div class="tabs__item" id="tab-4">
+                     <picture><source srcset="./img/section1/ipad2.webp" type="image/webp"><img  class="tabs__image" src="./img/section1/ipad2.jpg"></picture>
+                     <h2>Lorem ipsum dolor sit.</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim neque eius officiis quaerat
+                        fugiat adipisci, cum porro illo repellat, quam tempore reiciendis nihil excepturi sapiente
+                        mollitia asperiores pariatur quidem.</p>
+                 
+                  </div>
+                  <!--/tabs__item -->
+               </div>
+               <!--/tabs__content -->
+            </div>
+            <!--/content__tabs tabs -->
+         </div>
+         <!--/content__body -->
+      </div>
+      <!--/content__container  _container-->
+   </section>
+   <!--/content -->
+   <!--------------------------/content---------------------------------->
+   <!-------------------------about-------------------------------------->
+   <section class="page__about about">
+      <div class="about__container _container">
+         <div class="about__body">
+            <div class="about__columns columns">
+               <div class="columns__left">
+                  <a href="https://grandua.ua/catalog"><picture><source srcset="./img/section2/phon.webp" type="image/webp"><img class="columns__image" src="./img/section2/phon.jpg" alt=""></picture></a>
+               </div>
+               <!--/column__left -->
+               <div class="columns__right">
+                  <div class="columns__accordion accordion">
+                     <div class="accordion__headline">
+                        <h2>Why choose us?</h2>
+                     </div>
+                     <div class="accordion__item active" data-collapse="#acitem-1">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-1">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                     <div class="accordion__item" data-collapse="#acitem-2">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-2">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                     <div class="accordion__item" data-collapse="#acitem-3">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-3">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                     <div class="accordion__item" data-collapse="#acitem-4">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-4">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                     <div class="accordion__item" data-collapse="#acitem-5">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-5">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                     <div class="accordion__item" data-collapse="#acitem-6">
+                        <div class="accordion__header">
+                           <picture><source srcset="./img/section2/check.webp" type="image/webp"><img class="accordion__icon" src="./img/section2/check.png" alt=""></picture>
+                           <div class="accordion__title">Lorem ipsum dolor sit amet </div>
+                        </div>
+                        <!--/accordion__header -->
+                        <div class="accordion__content" id="acitem-6">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus alias vitae quis
+                              molestias nihil animi modi numquam nisi? Nisi molestias illum libero a non odit, nobis
+                              maiores laborum molestiae asperiores! </p>
+                        </div>
+                        <!--/accordion__content -->
+                     </div>
+                     <!--/accordion__item -->
+                  </div>
+                  <!--/columns__accordion -->
+               </div>
+               <!--/columns__right -->
+            </div>
+            <!--/about__columns-->
+         </div>
+         <!--/about__body -->
+      </div>
+      <!--/about__container _container -->
+   </section>
+   <!--/page__about about -->
+   <!--------------------------------/about-------------------------- -->
+   <!--------------------------------form------------------------------->
+   <section class="page__form form">
+      <div class="form__container _container">
+         <div class="form__body">
+            <div class="form__group form__group_orange wow fadeInLeft" data-wow-delay="1s">
+               <div class="form__title">
+                  <h2>Member login</h2>
+               </div>
+               <!--/form__title -->
+               <div class="form__content">
+                  <div class="form__form"><input type="text" id="username" class="input" placeholder="Username"></div>
+                  <div class="form__form"><input type="password" id="inputPassword" class="input"
+                        placeholder="Password"></div>
+                  <div class="form__button"><button type="submit">Log me in</button>
+                  </div>
+                  <!--/form__button -->
+               </div>
+               <!--/form__content-->
+            </div>
+            <!--/form__group form__group_orange -->
+            <div class="form__group form__group_blue wow fadeInRight" data-wow-delay="1s">
+               <div class="form__title">
+                  <h2>Subcribe to our weekly newsletter</h2>
+               </div>
+               <!--/form__title -->
+               <div class="form__content">
+                  <div class="form__form form__form_long"><input type="email" id="inputEmail"  " placeholder="Email address">
+                  </div>
+                  <div class="form__button form__button_blue"><button type="submit">Subscribe</button>
+                  </div> <!--/form__button form__button_blue -->                  
+               </div>
+               <!--/form__content -->
+            </div>
+            <!--/form__group form__group_blue -->
+         </div>
+         <!--/form__body -->
+      </div>
+      <!--/form__container _containeer -->
+   </section>
+   <!--/page__form form -->
+  
+</main>
+<!--/page--> <footer class="footer" id="footer">
+   <div class="footer__container _container">
+      <div class="footer__body">
+         <div class="footer__column footer__column_left wow fadeInLeft" data-wow-delay=".5s" >
+            <div class="footer__title">
+               <h3>About us</h3>
+            </div>
+            <nav class="footer__menu">
+               <ul class="footer__list list">
+                  <li class="list__item"><a href="#">About us</a></li>
+                  <li class="list__item"><a href="#">Why us</a></li>
+                  <li class="list__item"><a href="#">Customer stories</a></li>
+                  <li class="list__item"><a href="#">Press Resources</a></li>
+                  <li class="list__item"><a href="#">Press Releases</a></li>
+                  <li class="list__item"><a href="#">Contact us</a></li>
+               </ul>
+            </nav>
+         </div>
+         <!--/footer__column footer__column_left -->
+         <div class="footer__column footer__column_middle wow fadeInLeft">
+            <div class="footer__title">
+               <h3>About us</h3>
+            </div>
+            <nav class="footer__menu">
+               <ul class="footer__list list">
+                  <li class="list__item"><a href="#">About us</a></li>
+                  <li class="list__item"><a href="#">Why us</a></li>
+                  <li class="list__item"><a href="#">Customer stories</a></li>
+                  <li class="list__item"><a href="#">Press Resources</a></li>
+                  <li class="list__item"><a href="#">Press Releases</a></li>
+                  <li class="list__item"><a href="#">Contact us</a></li>
+               </ul>
+            </nav>
+         </div>
+         <!--/footer__column footer__column_right -->
+         <div class="footer__column footer__column_slider wow fadeInRight">
+            <div class="footer__title">
+               <h3>Testimonials</h3>
+            </div>
+            <div class="footer__slider">
+               <div class="footer__item">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ratione quis dolorum corrupti,
+                     impedit delectus sequi voluptatibus velit sapiente? Tempora mollitia non, pariatur libero amet
+                     iusto debitis delectus necessitatibus natus?</p>
+               </div>
+               <!--/footer__item -->
+               <div class="footer__item">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ratione quis dolorum corrupti,
+                     impedit delectus sequi voluptatibus velit sapiente? Tempora mollitia non, pariatur libero amet
+                     iusto debitis delectus necessitatibus natus?</p>
+               </div>
+               <!--/footer__item -->
+               <div class="footer__item">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ratione quis dolorum corrupti,
+                     impedit delectus sequi voluptatibus velit sapiente? Tempora mollitia non, pariatur libero amet
+                     iusto debitis delectus necessitatibus natus?</p>
+               </div>
+               <!--/footer__item -->
+               <div class="footer__item">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ratione quis dolorum corrupti,
+                     impedit delectus sequi voluptatibus velit sapiente? Tempora mollitia non, pariatur libero amet
+                     iusto debitis delectus necessitatibus natus?</p>
+               </div>
+               <!--/footer__item -->
+               <div class="footer__item">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ratione quis dolorum corrupti,
+                     impedit delectus sequi voluptatibus velit sapiente? Tempora mollitia non, pariatur libero amet
+                     iusto debitis delectus necessitatibus natus?</p>
+               </div>
+               <!--/footer__item -->
+            </div>
+            <!--/footer__slider -->
+         </div>
+         <!--/footer__column footer__slider-->
+         <div class="footer__column footer__column_right wow fadeInRight" data-wow-delay=".5s">
+            <div class="footer__logo">
+               <h1>Leo/- </h1>
+               <p>&#169; authors@outlook.com</p>
+            </div>
+            <!--/footer__logo -->
+            <div class="footer__socials">
+               <a class="footer__social" href="#" target="_blank"><svg class="footer__icons">
+                     <use xlink:href="#facebook"></use>
+                  </svg></a>
+               <a class="footer__social" href="#" target="_blank"><svg class="footer__icons">
+                     <use xlink:href="#telegram"></use>
+                  </svg></a>
+               <a class="footer__social" href="#" target="_blank"><svg class="footer__icon">
+                     <use xlink:href="#instagram"></use>
+                  </svg></a>
+            </div>
+            <!--/footer__socials-->
+         </div>
+         <!--/footer__column footer__column_right -->
+      </div>
+      <!--/footer__body -->
+   </div>
+   <!--/footer__container _container -->
+  
+</footer>
+  </div>
+  <!--/wrapper-->
+  <script src="https://kit.fontawesome.com/8d43c2cab2.js?_v=20220708151156" crossorigin="anonymous"></script>
+  <script src="./js/slick.min.js?_v=20220708151156"></script> <!-- Main Script -->
+  <script src="js/app.min.js?_v=20220708151156"></script> <!-- Main Script -->
+</body>
+
+</html>
